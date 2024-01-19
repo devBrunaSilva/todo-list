@@ -1,0 +1,24 @@
+.header {
+  background-color: #181c23;
+  color: white;
+}
+
+.container {
+  max-width: 77.5rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+  div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    transform: translateY(50%);
+  }
+}
